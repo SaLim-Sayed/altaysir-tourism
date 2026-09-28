@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 
 const slides = [
   { image: "/hero-slider-flight.png", eyebrow: "التيسير للسياحة · طهطا", title: "رحلتك تبدأ", accent: "من هنا.", description: "سياحة خارجية، حج وعمرة، حجوزات فنادق، تذاكر طيران وتأشيرات — بخبرة واهتمام من أول مكالمة." },
-  { image: "/hero-slider-resort.png", eyebrow: "خطط رحلتك مع التيسير", title: "سافر براحة", accent: "واحجز بثقة.", description: "نساعدك في اختيار الوجهة المناسبة، ونرتب تفاصيل رحلتك بخدمة واضحة ومتابعة مستمرة." },
-  { image: "/hero-slider-umrah.png", eyebrow: "برامج الحج والعمرة", title: "رحلة إيمانية", accent: "تبدأ صح.", description: "برامج حج وعمرة مرتبة بعناية، من الحجز والتجهيز وحتى العودة بالسلامة." },
+  { image: "/campaign-hajj-generated.png", eyebrow: "برنامج الحج", title: "خطوتك الأولى", accent: "نحو الحج.", description: "تنظيم ومتابعة واضحة لتعيش مناسكك براحة واطمئنان، من أول حجز وحتى العودة بالسلامة." },
+  { image: "/campaign-umrah-generated.png", eyebrow: "برنامج العمرة", title: "رحلة روحانية", accent: "تبدأ صح.", description: "برنامج عمرة مرتب بعناية، مع خدمة واضحة ومتابعة مستمرة في كل خطوة." },
 ];
 
 export function HeroSection() {

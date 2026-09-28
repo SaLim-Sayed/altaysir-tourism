@@ -32,6 +32,7 @@ export function ContactForm() {
 
   return (
     <form onSubmit={submit} className="contact-form">
+      <div className="form-heading"><strong>ابدأ استفسارك</strong><span>املأ البيانات وسنفتح واتساب برسالتك مباشرة.</span></div>
       <label>الاسم<input required name="name" placeholder="اكتب اسمك" /></label>
       <label>رقم الهاتف<input required name="phone" placeholder="010 ..." /></label>
       <label>محتاج مساعدة في إيه؟<select required name="service" defaultValue=""><option value="" disabled>اختار الخدمة</option><option>الحج والعمرة</option><option>تذاكر الطيران</option><option>حجز الفنادق</option><option>التأشيرات</option></select></label>
