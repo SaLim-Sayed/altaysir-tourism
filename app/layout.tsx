@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description: "سياحة خارجية وحج وعمرة وحجوزات فنادق وتذاكر طيران وتأشيرات من التيسير للسياحة بطهطا في سوهاج.",
   keywords: ["التيسير للسياحة", "السياحة في طهطا", "حج وعمرة", "تذاكر طيران", "حجز فنادق", "تأشيرات"],
   alternates: { canonical: "/" },
+  verification: { google: "VwuvNHpTyF9HhmNRiWBTH6xPy1d6rOO8S68RHxJzw7I" },
   openGraph: {
     title: "التيسير للسياحة بطهطا",
     description: "حج وعمرة، تذاكر طيران، حجوزات فنادق وتأشيرات من طهطا.",
