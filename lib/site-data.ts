@@ -7,6 +7,7 @@ export type Service = {
 
 export const company = {
   name: "التيسير للسياحة بطهطا",
+  siteUrl: "https://altaysir-tourism.vercel.app",
   facebookUrl: "https://www.facebook.com/Rotanainternathionaltours",
   whatsappNumber: "201147714364",
   mainPhone: "01147714364",
