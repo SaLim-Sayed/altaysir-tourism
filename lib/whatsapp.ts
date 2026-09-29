@@ -8,7 +8,7 @@ export type WhatsAppInquiry = {
 
 export function createWhatsAppUrl({ name, phone, service }: WhatsAppInquiry) {
   const message = [
-    "مرحباً التيسير للسياحة، أريد الاستفسار عن رحلة.",
+    "مرحباً التيسير للسياحة بطهطا (روتانا انترناشيونال تورز)، أريد الاستفسار عن رحلة.",
     `الاسم: ${name}`,
     `رقم الهاتف: ${phone}`,
     `الخدمة المطلوبة: ${service}`,

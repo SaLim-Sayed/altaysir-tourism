@@ -6,7 +6,7 @@ export type Service = {
 };
 
 export const company = {
-  name: "التيسير للسياحة بطهطا",
+  name: "التيسير للسياحة بطهطا (روتانا انترناشيونال تورز)",
   siteUrl: "https://altaysir-tourism.vercel.app",
   facebookUrl: "https://www.facebook.com/Rotanainternathionaltours",
   whatsappNumber: "201147714364",

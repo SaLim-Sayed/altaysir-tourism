@@ -1,7 +1,7 @@
 export function SiteHeader() {
   return (
     <header className="site-header">
-      <a className="brand" href="#top" aria-label="التيسير للسياحة بطهطا"><img src="/facebook/logo.jpg" alt="شعار التيسير للسياحة" /><span><strong>التيسير</strong><small>للسياحة بطهطا</small></span></a>
+      <a className="brand" href="#top" aria-label="التيسير للسياحة بطهطا (روتانا انترناشيونال تورز)"><img src="/facebook/logo.jpg" alt="شعار التيسير للسياحة" /><span><strong>التيسير</strong><small>للسياحة بطهطا<br />(روتانا انترناشيونال تورز)</small></span></a>
       <nav><a href="#services">خدماتنا</a><a href="#about">عن التيسير</a><a href="#contact">تواصل معنا</a></nav>
       <a className="header-cta" href="#contact">احجز رحلتك <span>↗</span></a>
     </header>

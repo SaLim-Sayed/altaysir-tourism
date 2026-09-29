@@ -4,21 +4,21 @@ import { company } from "../lib/site-data";
 
 export const metadata: Metadata = {
   metadataBase: new URL(company.siteUrl),
-  title: "التيسير للسياحة بطهطا",
-  description: "سياحة خارجية وحج وعمرة وحجوزات فنادق وتذاكر طيران وتأشيرات من التيسير للسياحة بطهطا في سوهاج.",
+  title: "التيسير للسياحة بطهطا (روتانا انترناشيونال تورز)",
+  description: "سياحة خارجية وحج وعمرة وحجوزات فنادق وتذاكر طيران وتأشيرات من التيسير للسياحة بطهطا (روتانا انترناشيونال تورز) في سوهاج.",
   keywords: ["التيسير للسياحة", "السياحة في طهطا", "حج وعمرة", "تذاكر طيران", "حجز فنادق", "تأشيرات"],
   alternates: { canonical: "/" },
   verification: { google: "VwuvNHpTyF9HhmNRiWBTH6xPy1d6rOO8S68RHxJzw7I" },
   openGraph: {
-    title: "التيسير للسياحة بطهطا",
+    title: "التيسير للسياحة بطهطا (روتانا انترناشيونال تورز)",
     description: "حج وعمرة، تذاكر طيران، حجوزات فنادق وتأشيرات من طهطا.",
     url: company.siteUrl,
-    siteName: "التيسير للسياحة بطهطا",
+    siteName: "التيسير للسياحة بطهطا (روتانا انترناشيونال تورز)",
     locale: "ar_EG",
     type: "website",
-    images: [{ url: "/hero-slider-flight.png", width: 1536, height: 864, alt: "التيسير للسياحة بطهطا" }],
+    images: [{ url: "/hero-slider-flight.png", width: 1536, height: 864, alt: "التيسير للسياحة بطهطا (روتانا انترناشيونال تورز)" }],
   },
-  twitter: { card: "summary_large_image", title: "التيسير للسياحة بطهطا", description: "خدمات السفر والحج والعمرة من طهطا.", images: ["/hero-slider-flight.png"] },
+  twitter: { card: "summary_large_image", title: "التيسير للسياحة بطهطا (روتانا انترناشيونال تورز)", description: "خدمات السفر والحج والعمرة من طهطا.", images: ["/hero-slider-flight.png"] },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
 };
 
